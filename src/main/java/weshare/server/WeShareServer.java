@@ -65,7 +65,7 @@ public class WeShareServer {
     public static void main(String[] args) {
         WeShareServer server = new WeShareServer();
         seedDemoData();
-        server.start(5050);
+        server.start(6060);
     }
 
     @Nullable

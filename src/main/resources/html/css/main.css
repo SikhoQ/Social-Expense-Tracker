@@ -110,3 +110,21 @@ div.stacktrace {
     font-size: small;
     font-family: monospace;
 }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
